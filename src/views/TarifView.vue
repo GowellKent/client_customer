@@ -62,7 +62,15 @@ export default {
        }},
 
     mounted(){
-       axios.get('http://speed-express.herokuapp.com/api/tarif')
+
+        const config = {
+            headers: {
+                "Referrer-Policy": "unsafe-url"
+
+            }
+        }
+
+       axios.get('http://speed-express.herokuapp.com/api/tarif', config)
         .then(res => {
           this.setTarifs(res.data),
           console.log(res)
