@@ -2,7 +2,7 @@
   <div id="app">
 
     <nav>
-      <a class="navbar-brand disabled ayam">Speed Express</a>&nbsp;&nbsp;
+      <a class="navbar-brand disabled">Speed Express</a>&nbsp;&nbsp;
       <router-link :to="{name:'home'}">Cek Resi</router-link> &nbsp;
       <router-link :to="{name:'tarif'}">Cek Tarif</router-link>
     </nav>
@@ -38,13 +38,6 @@ nav {
 nav a {
   font-weight: bold;
   color: #a70000;
-}
-
-nav a.ayam {
-  font-weight: bold;
-  color: #ffffff;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 2em;
 }
 
 nav a.router-link-exact-active {
