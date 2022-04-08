@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div id="home">
     <h1 class="mb-5">Tracking Resi</h1>
     
     <div class="row mb-5">
