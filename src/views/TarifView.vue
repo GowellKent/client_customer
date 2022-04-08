@@ -65,8 +65,8 @@ export default {
 
         const config = {
             headers: {
-                "Referrer-Policy": "unsafe-url"
-
+                "Referer" : "http://speed-express.herokuapp.com/",
+                "Referrer-Policy": "origin"
             }
         }
 
