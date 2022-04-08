@@ -62,15 +62,7 @@ export default {
        }},
 
     mounted(){
-
-        const config = {
-            headers: {
-                "Referer" : "http://speed-express.herokuapp.com/",
-                "Referrer-Policy": "origin"
-            }
-        }
-
-       axios.get('http://speed-express.herokuapp.com/api/tarif', config)
+       axios.get('http://speed-express.herokuapp.com/api/tarif')
         .then(res => {
           this.setTarifs(res.data),
           console.log(res)
