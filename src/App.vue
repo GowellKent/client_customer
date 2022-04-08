@@ -3,8 +3,8 @@
 
     <nav>
       <a class="navbar-brand disabled ayam">Speed Express</a>&nbsp;&nbsp;
-      <router-link to="/resi">Cek Resi</router-link> &nbsp;
-      <router-link to="/tarif">Cek Tarif</router-link>
+      <router-link :to="{name:'home'}">Cek Resi</router-link> &nbsp;
+      <router-link :to="{name:'tarif'}">Cek Tarif</router-link>
     </nav>
 
     <router-view/>
