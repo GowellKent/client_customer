@@ -1,5 +1,9 @@
 # client_customer
 
+### Deploy Link 
+
+https://main--clientcustomer.netlify.app/
+
 ## Project setup
 ```
 npm install
@@ -19,11 +23,6 @@ npm run build
 ```
 npm run lint
 ```
-
-### Deploy Link 
-
-https://main--clientcustomer.netlify.app/
-
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
